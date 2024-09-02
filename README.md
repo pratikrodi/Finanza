@@ -21,7 +21,7 @@
 
 ## About The Project
 
-This is an web application made a part of a module to make appointment booking between people a lot easier. The usual process is to exchange mails between people till they find a convenient time. But this application can skip this process and book appointment by displaying available slots to users.
+This is an web application made a part of a module to make Financial appointment booking between people a lot easier. The usual process is to exchange mails between people till they find a convenient time. But this application can skip this process and book appointment by displaying available slots to users.
 
 ### Built With
 
@@ -34,8 +34,7 @@ This web application uses the following technology
 - [ExpressJS](https://expressjs.com/)
 - [MomentJS](https://momentjs.com/)
 - [Axios](https://www.npmjs.com/package/axios)
-- [Firebase](https://firebase.google.com/)
-- [Heroku](https://heroku.com)
+- [MongoDB](https://www.mongodb.com/)
 
 <!-- GETTING STARTED -->
 
@@ -46,7 +45,7 @@ To preview this application online click here [https://dr-john-appointment-booki
 To run this application locally 2. Clone the repo
 
 ```sh
-git clone https://github.com/VinayakTekade/Appointment-Booking
+git clone https://github.com/pratikrodi/Finanza
 ```
 
 3. Install NPM packages in client directory and server directory
@@ -56,15 +55,13 @@ git clone https://github.com/VinayakTekade/Appointment-Booking
    cd ../server
    npm install
    ```
-4. Create a firebase firestore database with collection name `event`
-5. Add your firebase service account API key in `server/serviceAccountKey.json`
 
 ### Prerequisites
 
 You need to have the following Prerequisite to get started
 
 - NodeJS
-- Firebase Account
+- MongoDB
 
 ## Project Structure
 
