@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pratikrodi/finanicial-appointment.git"
+    "url": "git+https://github.com/pratikrodi/Finanza"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/VinayakTekade/Appointment-Booking/issues"
+    "url": "https://github.com/pratikrodi/Finanza"
   },
-  "homepage": "https://github.com/VinayakTekade/Appointment-Booking#readme",
+  "homepage": "https://github.com/pratikrodi/Finanza",
   "dependencies": {
     "firebase": "^10.9.0",
     "react-router-dom": "^6.23.0"
