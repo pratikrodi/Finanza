@@ -8,7 +8,6 @@ import {
   Nav,
   Button,
 } from "reactstrap";
-import Booking from "./Booking";
 
 const NavBar = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +17,7 @@ const NavBar = (props) => {
   return (
     <div>
       <Navbar color="light" light expand="md" fixed="top">
-        <NavbarBrand href="/">Dr John</NavbarBrand>
+        <NavbarBrand href="/">Finanza</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="ml-auto" navbar>
@@ -27,7 +26,16 @@ const NavBar = (props) => {
                 List All events
               </Button>
             </Link>
-            <Booking className="BookApp" />
+            <Link to="/services">
+              <Button color="primary" className="mx-2">
+                Services
+              </Button>
+            </Link>
+            <Link to="/signup">
+              <Button color="primary" className="mx-2">
+                Sign Up
+              </Button>
+            </Link>
           </Nav>
         </Collapse>
       </Navbar>

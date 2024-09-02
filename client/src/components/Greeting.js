@@ -7,8 +7,7 @@ const Greeting = (props) => {
         <Container fluid>
           <h1 className="display-3">Welcome</h1>
           <p className="lead">
-            To the world's best doctor. <br /> Press the "Book Appointment" in
-            the header to schedule a meeting
+            To the world's best Chartered Accountant's Firm <br /> Just go through our Services and find your all financial problem's solution here
           </p>
         </Container>
       </Jumbotron>

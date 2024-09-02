@@ -1,4 +1,4 @@
-# Dr John Appointment-Booking
+# Appointment-Booking
 
 <!-- PROJECT LOGO -->
 <br />

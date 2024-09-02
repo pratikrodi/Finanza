@@ -1,11 +1,7 @@
-const admin = require("firebase-admin");
+const mongoose = require("mongoose");
 
-const serviceAccount = require("./serviceAccountKey.json");
-
-module.exports = admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
+mongoose.connect("mongodb://localhost:27017/Finanza").then(() => {
+  console.log("Connected to MongoDB");
+}).catch((err) => {
+  console.error("Error connecting to MongoDB:", err);
 });
-
-const db = admin.firestore();
-
-module.exports = db;

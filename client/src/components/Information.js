@@ -1,6 +1,6 @@
 import { Container } from "reactstrap";
-import doc1 from "../assets/img/doc1.jpg";
-import doc2 from "../assets/img/doc2.jpg";
+import CA from "../assets/img/CA.jpg";
+import CA2 from "../assets/img/CA2.jpg";
 
 const Information = () => {
   return (
@@ -8,34 +8,32 @@ const Information = () => {
       <Container fluid>
         <div className="row m-3 d-flex align-items-center">
           <div className="col-12 col-md-6 p-5">
-            <img src={doc1} alt="" width="100%" height="auto" />
+            <img src={CA} alt="" width="100%" height="auto" />
           </div>
           <div className="col-12 col-md-6 text-center p-5">
-            <h3 className="display-4">Specialist in Critical Care</h3>
+            <h3 className="display-4">Specialist in Critical Financial Help</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Laudantium atque fugiat ipsa accusamus? Rerum dolore aperiam nobis
-              harum! Quam blanditiis illum dolor impedit rem eum recusandae,
-              commodi quaerat quisquam ipsam doloremque expedita, praesentium
-              facere illo iste tempora eius asperiores natus pariatur quod.
-              Assumenda saepe sit ducimus iste, asperiores hic distinctio!
+            A Financial Advisor's Firm is a professional service 
+            organisation that employs Chartered Accountants to provide 
+            financial and accounting expertise to businesses and individuals. 
+            These firms offer services such as auditing, tax consultancy, 
+            financial planning, and compliance reporting.
             </p>
           </div>
         </div>
         <div className="row m-3 d-flex align-items-center">
           <div className="col-12 col-md-6 text-center p-5">
-            <h3 className="display-4">Specialist in Medicine</h3>
+            <h3 className="display-4">Financial management</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Laudantium atque fugiat ipsa accusamus? Rerum dolore aperiam nobis
-              harum! Quam blanditiis illum dolor impedit rem eum recusandae,
-              commodi quaerat quisquam ipsam doloremque expedita, praesentium
-              facere illo iste tempora eius asperiores natus pariatur quod.
-              Assumenda saepe sit ducimus iste, asperiores hic distinctio!
+            Financial management is all about monitoring, controlling, 
+            protecting, and reporting on a company's financial resources. 
+            Companies have accountants or finance teams responsible for 
+            managing their finances, including all bank transactions, 
+            loans, debts, investments, and other sources of funding.
             </p>
           </div>
           <div className="col-12 col-md-6 p-5">
-            <img src={doc2} alt="" width="100%" height="auto" />
+            <img src={CA2} alt="" width="100%" height="auto" />
           </div>
         </div>
       </Container>
