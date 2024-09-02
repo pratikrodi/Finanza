@@ -39,10 +39,7 @@ This web application uses the following technology
 <!-- GETTING STARTED -->
 
 ## Getting Started
-
-To preview this application online click here [https://dr-john-appointment-booking.herokuapp.com/](https://dr-john-appointment-booking.herokuapp.com/)
-
-To run this application locally 2. Clone the repo
+To run this application locally Clone the repo
 
 ```sh
 git clone https://github.com/pratikrodi/Finanza
